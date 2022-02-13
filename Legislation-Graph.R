@@ -1,8 +1,6 @@
 library(tidyverse)
 library(circlize)
 
-Legislation_Data <- read_csv("Legislation-Data.csv")
-
 State <- rep(c("Alabama","Arkansas","Connecticut","Delaware","Florida",
            "Georgia","Illinois","Indiana","Iowa","Kentucky","Louisiana",
            "Maine","Maryland","Massachusetts","Michigan","Minnesota",
@@ -51,5 +49,11 @@ circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = "black",
                        track.height = 0.05)
 circos.clear()
 
-ggplot(Legislation_Data) +
-  geom_tile(aes(x = State, y = Legislation, fill = Fill))
+ggplot(State_Legislation) +
+  geom_tile(aes(x = State, y = Legislation, fill = Fill), color = "black") +
+  scale_fill_gradient(low = "white", high = "black") +
+  coord_polar() +
+  theme_bw() +
+  theme(axis.ticks = element_blank(),
+        axis.text = element_blank())
+
