@@ -29,41 +29,33 @@ State_Legislation <- tibble(State,Legislation,Fill)
  
 # Start by defining rules for the circle, height of each track, degree the first cell is made at, and margins for tracks and the circle
 circos.par(gap.degree = 0, cell.padding = c(0, 0, 0, 0),
-           start.degree = 176, track.margin = c(0, 0), track.height = .03, circle.margin = c(.15))
+           start.degree = 176, track.margin = c(0, 0), track.height = .035, circle.margin = c(.2,.2,.3,.1))
 # Set number of sectors(factors) and x limits within each cell
 circos.initialize(factors = c(1:48), xlim = c(-10,10))
-# Next is 10 trackplotregion functions starting from the outside track and going in, each defining the color of every single cell in the track
+# Next is 10 trackplotregion functions starting from the outside track and going in, each defining the color of every cell in the track
 # Also circos.text functions, putting the numbers in the Wyoming cells
-circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("white","white","#212c1c","#212c1c","#212c1c","white","#212c1c","white","white","#212c1c","#212c1c","white","#212c1c","#212c1c","white","#212c1c","white","#212c1c","white","white","#212c1c","white","#212c1c","white","white","#212c1c","white","#212c1c","#212c1c","white","white","white","#212c1c","#212c1c","white","white","#212c1c","#212c1c","white","white","white","white","#212c1c","white","white","white","white","#212c1c"),
-                       track.height = 0.03)
+circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("white","white","#212c1c","#212c1c","#212c1c","white","#212c1c","white","white","#212c1c","#212c1c","white","#212c1c","#212c1c","white","#212c1c","white","#212c1c","white","white","#212c1c","white","#212c1c","white","white","#212c1c","white","#212c1c","#212c1c","white","white","white","#212c1c","#212c1c","white","white","#212c1c","#212c1c","white","white","white","white","#212c1c","white","white","white","white","#212c1c"))
 circos.text(labels = 10,sector.index = 48, track.index = 1,x=0,y=.5, col = "#e1e2e4", facing = "downward", cex = .43)
-circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","white","white","#212c1c","#212c1c","white","#212c1c","white","white","white","#212c1c","#212c1c","white","#212c1c","white","#212c1c","white","#212c1c","white","#212c1c","#212c1c","white","#212c1c","#212c1c","white","white","white","#212c1c","white","#212c1c","white","#212c1c","white","white","white","white","white","white","white","white","white","#212c1c"),
-                       track.height = 0.03)
+circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","white","white","#212c1c","#212c1c","white","#212c1c","white","white","white","#212c1c","#212c1c","white","#212c1c","white","#212c1c","white","#212c1c","white","#212c1c","#212c1c","white","#212c1c","#212c1c","white","white","white","#212c1c","white","#212c1c","white","#212c1c","white","white","white","white","white","white","white","white","white","#212c1c"))
 circos.text(labels = 9,sector.index = 48, track.index = 2,x=0,y=.45, col = "#e1e2e4", facing = "downward", cex = .43)
-circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","white","white","white","#212c1c","white","#212c1c","white","white","white","white"),
-                       track.height = 0.03)
+circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","white","white","white","#212c1c","white","#212c1c","white","white","white","white"))
 circos.text(labels = 8,sector.index = 48, track.index = 3,x=0,y=.45, col = "black", facing = "downward", cex = .465)
-circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","white","#212c1c","white","white","#212c1c","white","#212c1c","white","#212c1c","white","#212c1c","white","white","white","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","white","white","white","#212c1c","white","white","white","white","white","white","white"),
-                       track.height = 0.03)
+circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","white","#212c1c","white","white","#212c1c","white","#212c1c","white","#212c1c","white","#212c1c","white","white","white","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","white","white","white","#212c1c","white","white","white","white","white","white","white"))
 circos.text(labels = 7,sector.index = 48, track.index = 4,x=0,y=.45, col = "black", facing = "downward", cex = .465)
-circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","white","#212c1c","white","#212c1c","#212c1c","white","#212c1c","white","#212c1c","#212c1c","white","white","white","white","white","#212c1c","white","white","white","white","#212c1c","white","#212c1c","white","white","white","white","#212c1c","#212c1c","white","white","white","white","#212c1c","white","white","white","white","white","white","white","white","white","white","white","white","white"),
-                       track.height = 0.03)
+circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","white","#212c1c","white","#212c1c","#212c1c","white","#212c1c","white","#212c1c","#212c1c","white","white","white","white","white","#212c1c","white","white","white","white","#212c1c","white","#212c1c","white","white","white","white","#212c1c","#212c1c","white","white","white","white","#212c1c","white","white","white","white","white","white","white","white","white","white","white","white","white"))
 circos.text(labels = 6,sector.index = 48, track.index = 5,x=0,y=.45, col = "black", facing = "downward", cex = .465)
-circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","white","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","white","white","white","white","white","white","#212c1c","white","#212c1c"),
-                       track.height = 0.03)
+circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","white","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","white","white","white","white","white","white","#212c1c","white","#212c1c"))
 circos.text(labels = 5,sector.index = 48, track.index = 6,x=0,y=.45, col = "#e1e2e4", facing = "downward", cex = .43)
-circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","white","#212c1c","#212c1c","#212c1c","white","white","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","white","white","white","white","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","white","white","white","white","white","white","white","white","white","white","#212c1c"),
-                       track.height = 0.03)
+circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","white","#212c1c","#212c1c","#212c1c","white","white","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","white","white","white","white","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","white","white","white","white","white","white","white","white","white","white","#212c1c"))
 circos.text(labels = 4,sector.index = 48, track.index = 7,x=0,y=.45, col = "#e1e2e4", facing = "downward", cex = .43)
-circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("white","#212c1c","white","white","#212c1c","white","white","white","white","white","white","white","white","white","white","white","#212c1c","white","white","white","white","white","white","white","white","white","white","white","white","#212c1c","white","white","white","white","#212c1c","white","white","white","white","white","white","white","white","white","white","white","white","white"),
-                       track.height = 0.03)
+circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("white","#212c1c","white","white","#212c1c","white","white","white","white","white","white","white","white","white","white","white","#212c1c","white","white","white","white","white","white","white","white","white","white","white","white","#212c1c","white","white","white","white","#212c1c","white","white","white","white","white","white","white","white","white","white","white","white","white"))
 circos.text(labels = 3,sector.index = 48, track.index = 8,x=0,y=.45, col = "black", facing = "downward", cex = .465)
-circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("white","white","white","white","white","#212c1c","white","white","white","white","white","white","white","white","white","white","#212c1c","white","white","white","white","#212c1c","white","#212c1c","white","white","white","white","white","white","white","white","#212c1c","#212c1c","#212c1c","white","white","#212c1c","white","white","white","white","white","white","#212c1c","white","white","#212c1c"),
-                       track.height = 0.03)
+circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("white","white","white","white","white","#212c1c","white","white","white","white","white","white","white","white","white","white","#212c1c","white","white","white","white","#212c1c","white","#212c1c","white","white","white","white","white","white","white","white","#212c1c","#212c1c","#212c1c","white","white","#212c1c","white","white","white","white","white","white","#212c1c","white","white","#212c1c"))
 circos.text(labels = 2,sector.index = 48, track.index = 9,x=0,y=.45, col = "#e1e2e4", facing = "downward", cex = .43)
-circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","white","#212c1c","white","white","white","#212c1c","#212c1c","#212c1c","#212c1c"),
-                       track.height = 0.03)
+circos.trackPlotRegion(ylim = c(0, 1), factors = c(1:48), bg.col = c("#212c1c","white","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","#212c1c","white","#212c1c","#212c1c","white","#212c1c","white","white","white","#212c1c","#212c1c","#212c1c","#212c1c"))
 circos.text(labels = 1,sector.index = 48, track.index = 10,x=0,y=.45, col = "#e1e2e4", facing = "downward", cex = .43)
+# One extra track of blank cells, to provide some extra space between the state names and the cells
+circos.track(ylim=c(0,3),bg.border=NA,track.height=.01)
 # Track with each individual state name going in the circle, and defining the direction they face, font and size
 circos.trackText(x = rep(-4.8,48), y = rep(.1,48),
                  labels = c("Alabama","Arkansas","Connecticut","Delaware","Florida",
@@ -75,11 +67,11 @@ circos.trackText(x = rep(-4.8,48), y = rep(.1,48),
                             "West Virginia","Wisconsin","Nevada","Montana","Kansas",
                             "Arizona","Oregon","California","Washington",
                             "Utah","Idaho","Colorado","Wyoming"),
-                 factors = c(1:48), col = "#212c1c", font = 2, cex = .7, adj = -.1,
+                 factors = c(1:48), col = "#212c1c", font = 2, cex = .5, adj = 0,
                  facing = "reverse.clockwise")
 # New track placing the lines going all around the circle
 circos.track(ylim=c(0,3),bg.border=NA,track.height=.32, panel.fun = function(x,y) {
-  circos.axis(major.at = 10, labels = "",direction = "inside", major.tick.length = 6.6, lwd= 1)})
+  circos.axis(major.at = 10, labels = "",direction = "inside", major.tick.length = 6.6, lwd= 1.6)})
 # Final track, with the years that went along with some states
 circos.trackText(x = rep(-5.5,48), y = rep(0,48),
                  labels = c("","","","","","","","","","","","","","","","",
@@ -87,18 +79,11 @@ circos.trackText(x = rep(-5.5,48), y = rep(0,48),
                             "","","1914","1914","1912",
                             "1912","1912","1911","1910",
                             "1896","1896","1893","1869"),
-                 factors = c(1:48), col = "#212c1c", font = 2, cex = .55, adj = -.1,
+                 factors = c(1:48), col = "#212c1c", font = 2, cex = .3, adj = 0,
                  facing = "reverse.clockwise")
-circos.clear() 
-title("Important Legislation in the United States \nAffecting Women and Children", mar=c(6,5,5,3), family = "Puritan")
+circos.clear()
+title("Important Legislation in the United States \nAffecting Women and Children", family = "Puritan")
+mtext("FFFFF", side=1, mar = c(0,0,0,0))
 
 
-
-ggplot(State_Legislation) +
-  geom_tile(aes(x = Legislation, y = State, fill = Fill), color = "#212c1c") +
-  scale_fill_gradient(low = "white", high = "#212c1c") +
-  coord_polar(theta = "y") +
-  theme_bw() +
-  theme(axis.ticks = element_blank(),
-        axis.text = element_blank())
 
