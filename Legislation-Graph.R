@@ -125,7 +125,7 @@ mtext("Red light abatement",  side = 1, font = 1, cex = .9, adj = .678, line = 3
 mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ######### Reveal #1 ###########
@@ -238,7 +238,7 @@ circos.clear()
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 # mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-# mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+# mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ######## Reveal #2 ###########
@@ -351,7 +351,7 @@ circos.clear()
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 # mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-# mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+# mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ######## Reveal #3 #########
@@ -464,7 +464,7 @@ circos.clear()
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 # mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-# mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+# mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ####### Reveal #4 ##########
@@ -576,7 +576,7 @@ par(mar = c(6.8,2,0,0))
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ######## Reveal #5 ########
@@ -688,7 +688,7 @@ par(mar = c(6.8,2,0,0))
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ######## Reveal #6 ########
@@ -801,7 +801,7 @@ mtext("women and children",  side = 1, font = 1, cex = .9, adj = .3245, line = -
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ######## Reveal #7 #########
@@ -914,7 +914,7 @@ mtext("Mothers' Pensions laws",  side = 1, font = 1, cex = .9, adj = .3345, line
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ####### Reveal #8 ########
@@ -1027,7 +1027,7 @@ mtext("wide",  side = 1, font = 1, cex = .9, adj = .605, line = -4)
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ######### Reveal #9 #######
@@ -1139,7 +1139,7 @@ mtext("women",  side = 1, font = 1, cex = .9, adj = .616, line = -2.2)
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ########## Reveal #10 #########
@@ -1251,7 +1251,7 @@ mtext("Minimum wage",  side = 1, font = 1, cex = .9, adj = .652, line = -1.3)
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ######### Reveal #11 ########
@@ -1363,7 +1363,7 @@ mtext("Mothers' pensions",  side = 1, font = 1, cex = .9, adj = .668, line = -.4
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ######## Reveal #12 #########
@@ -1475,7 +1475,7 @@ mtext("Equal guardianship",  side = 1, font = 1, cex = .9, adj = .6735, line = .
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 ######### Reveal #13 ##########
@@ -1587,7 +1587,7 @@ mtext("chaste or unchaste",  side = 1, font = 1, cex = .9, adj = .672, line = 2.
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 
@@ -1700,7 +1700,7 @@ mtext("Red light abatement",  side = 1, font = 1, cex = .9, adj = .678, line = 3
 # mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 # mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
 
 
@@ -1813,5 +1813,5 @@ mtext("Red light abatement",  side = 1, font = 1, cex = .9, adj = .678, line = 3
 mtext("10",  side = 1, font = 2, cex = .9, adj = .566, line = 4.1)
 mtext("Prohibition",  side = 1, font = 1, cex = .9, adj = .6316, line = 4.1)
 mtext("Note: Neither Illinois nor any of the Victory States of 1917",  side = 1, font = 1, cex = .634, adj = .5, line = 4.9)
-mtext("are included as full suffrage states is chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
+mtext("are included as full suffrage states in chart analysis",   side = 1, font = 1, cex = .634, adj = .5, line = 5.5)
 dev.off()
